@@ -4,7 +4,7 @@ public enum Cell {
     LIVE_CELL("*"), DEAD_CELL(".");
 
     private String symbol;
-	private String mock;
+	private String mocked;
 
     private Cell(final String initialSymbol) {
         this.symbol = initialSymbol;
